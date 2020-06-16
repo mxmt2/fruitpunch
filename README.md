@@ -26,6 +26,7 @@ You will need to install LÖVE from [here](https://love2d.org/) to play the game
 
 ## The Creator :grapes:
 Michelle Tan 
+
 Singapore :singapore:
 
 June 2020

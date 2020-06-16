@@ -119,9 +119,6 @@ function Ball:blockCollide()
             self.y = math.floor((self.y - self.r)/ self.map.blockHeight) * map.blockHeight 
             + map.blockHeight + self.r
         end
-
-        -- gameState = 'serve'
-
     end
     
     -- checking left/right collisions
@@ -168,9 +165,6 @@ function Ball:blockCollide()
             self.x = math.floor((self.x - self.r) / self.map.blockWidth) * self.map.blockWidth 
             + self.r + self.map.blockWidth
         end
-
-        -- gameState = 'serve'
-
     end
 
 end

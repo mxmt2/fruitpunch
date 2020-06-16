@@ -49,9 +49,9 @@ function love.load()
     smallFont = love.graphics.newFont('fonts/font.ttf', 8)
     largeFont = love.graphics.newFont('fonts/font.ttf', 12)
 
-    -- initialise lives / score? 
+    -- initialise lives and powerup variables
     lives = 3
-    level = 3
+    level = 1
     MAX_LEVEL = 5
     powerupTotal = 0
     powerupCount = 0
